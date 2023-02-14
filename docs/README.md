@@ -36,7 +36,7 @@ Veamos un ejemplo:
       "description": "Botón de componente para Whatsapp que recibirá un telefono, un logo y un mensaje"
     }
 
-    Además, configurar la sección de **builders**, agregando la app store, así:
+Además, configurar la sección de **builders**, agregando la app store, así:
 
       {
          "builders": {
@@ -57,14 +57,14 @@ Veamos un ejemplo:
 
 ### Paso 3 - Editar el Package.json:
 
-En esta sección se debe modoficar el archivo **`package.json`** así:
+En esta sección se debe modificar el archivo **`package.json`** así:
 
 {
 "version": "0.0.1",
 "name": "whatsapp-button"
 }
 
-Tambien deberas modificar el archivo **`package.json`** dentro de la carpeta `React`
+Tambien, deberas modificar el archivo **`package.json`** dentro de la carpeta `React`
 
 ### Paso 4 - Instalación de dependencias en React:
 
@@ -86,7 +86,7 @@ Una vez declarada esta información, ahora sí, podremos llamar a nuestro compon
 
 En el folder React, debemos crear un archivo `name-componente.tsx`, esto es, porque trabajaremos con React y Typescript.
 
-### Paso 7 - puntos a tener en cuenta:
+### Paso 7 - Puntos a tener en cuenta:
 
 Para recordar: el comando `vtex link` nos permite vincular nuestros archivos locales con la plataforma `vtex`. En ese orden de ideas:
 
